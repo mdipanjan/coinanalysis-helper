@@ -1,6 +1,5 @@
 require("dotenv").config();
 const axios = require("axios");
-
 // Create an instance of Axios with custom configuration options
 const api = axios.create({
   baseURL: "https://pro-api.coinmarketcap.com/v1",
